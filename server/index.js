@@ -12,7 +12,11 @@ app.use(express.json())
 //create a todo
 
 app.post("/todos", (req, res) => {
-  
+  try {
+    const { description } = req.body
+  } catch (err) {
+    console.error(err.message);
+  }
 })
 
 //get all todos
