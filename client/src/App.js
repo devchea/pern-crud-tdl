@@ -34,9 +34,6 @@ const { name, realName, enemies } = hero;
 // const {  } = hero;
 // const enemies = 'Joker'
 console.log('hero:', hero);
-console.log('name:', name);
-console.log('realname:', realName);
-console.log('enemies:', enemies);
 
 
   return (
