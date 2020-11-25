@@ -21,19 +21,6 @@ function App() {
 // console.log('firstName:', firstName);
 // console.log('lastName:', lastName);
 // console.log('birthDate:', birthDate);
-const hero = {
-  name: "Batman",
-  realName: "Bruce Wayne",
-  enemies: {
-    common: 'Joker',
-    uncommon: 'Flash'
-  }
-};
-
-const { name, realName, enemies } = hero;
-// const {  } = hero;
-// const enemies = 'Joker'
-console.log('hero:', hero);
 
 
   return (
