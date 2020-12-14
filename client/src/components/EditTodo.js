@@ -28,7 +28,7 @@ const updateDescription = async e => {
         data-toggle="modal"
         data-target={`#id${todo.todo_id}`}
       >
-        Edi
+        Edit
       </button>
 
       {/* <!-- The Modal --> */}
